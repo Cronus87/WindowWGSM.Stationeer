@@ -8,7 +8,7 @@ using WindowsGSM.GameServer.Query;
 
 namespace WindowsGSM.Plugins
 {
-    public class Station : SteamCMDAgent // SteamCMDAgent is used because Station relies on SteamCMD for installation and update process
+    public class Stationeers : SteamCMDAgent // SteamCMDAgent is used because Station relies on SteamCMD for installation and update process
     {
         // - Plugin Details
         public Plugin Plugin = new Plugin
